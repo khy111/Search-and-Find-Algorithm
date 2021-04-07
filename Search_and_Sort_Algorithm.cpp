@@ -75,7 +75,7 @@ void test_selectionsort(int a[], int n)
     for (int i = 0; i < n - 1; i++)//n 个元素的无序表要遍历 n-1 次
     {
         int index = i;
-        for (int j = i; j < n; j++)
+        for (int j = i; j < n; j++) 
         {
             if (a[j] < a[index])//后面的无序元素都与index比较，找最值，并记录最值下标
             {
